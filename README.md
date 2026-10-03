@@ -6,16 +6,16 @@
 </p>
 
 <p align="center">
-  <img alt="License" src="https://img.shields.io/github/license/Klerith/fernando-skills">
-  <img alt="Latest Release" src="https://img.shields.io/github/v/release/Klerith/fernando-skills">
-  <img alt="GitHub Stars" src="https://img.shields.io/github/stars/Klerith/fernando-skills?style=social">
+  <img alt="License" src="https://img.shields.io/github/license/Sirio2022/dv-tookit">
+  <img alt="Latest Release" src="https://img.shields.io/github/v/release/Sirio2022/dev-toolkit">
+  <img alt="GitHub Stars" src="https://img.shields.io/github/stars/Sirio2022/dev-toolkit?style=social">
   <img alt="Skills" src="https://img.shields.io/badge/skills-2-blue">
 </p>
 
 ## Quick start
 
 ```bash
-npx skills@latest add Klerith/fernando-skills
+pnpx skills@latest add Sirio2022/dev-toolkit
 ```
 
 ## Skills

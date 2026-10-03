@@ -1,12 +1,12 @@
 [English](README.md) · [Español](README-es.md)
 
 <p align="center">
-  <h1 align="center">Spec-Driven Skills for Claude Code</h1>
+  <h1 align="center">Spec-Driven Skills for OpenCode</h1>
   <p align="center">Plan the feature. Approve it. Implement it step by step.</p>
 </p>
 
 <p align="center">
-  <img alt="License" src="https://img.shields.io/github/license/Sirio2022/dv-tookit">
+  <img alt="License" src="https://img.shields.io/github/license/Sirio2022/dev-toolkit">
   <img alt="Latest Release" src="https://img.shields.io/github/v/release/Sirio2022/dev-toolkit">
   <img alt="GitHub Stars" src="https://img.shields.io/github/stars/Sirio2022/dev-toolkit?style=social">
   <img alt="Skills" src="https://img.shields.io/badge/skills-2-blue">

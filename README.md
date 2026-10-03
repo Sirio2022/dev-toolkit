@@ -20,10 +20,18 @@ pnpx skills@latest add Sirio2022/dev-toolkit
 
 ## Skills
 
-| Skill | Description | Argument |
-| --- | --- | --- |
-| `/spec` | Designs the feature document by asking clarifying questions | — |
-| `/spec-impl` | Validates the spec is approved and implements step by step | `<NN-slug>` |
+| Skill        | Description                                                 | Argument    |
+| ------------ | ----------------------------------------------------------- | ----------- |
+| `/spec`      | Designs the feature document by asking clarifying questions | —           |
+| `/spec-impl` | Validates the spec is approved and implements step by step  | `<NN-slug>` |
+
+## Agents
+
+| Agent                     | Description                                                                       | Location                                   |
+| ------------------------- | --------------------------------------------------------------------------------- | ------------------------------------------ |
+| `react-best-practices.md` | Applies React 19 and Next.js 16 best practices to the codebase.                   | `.opencode/agents/react-best-practices.md` |
+| `spec-verifier.md`        | Verifies and corrects acceptance criteria in specs using Context7 and Playwright. | `.opencode/agents/spec-verifier.md`        |
+| `accessibility-check.md`  | Audits and corrects accessibility issues following WCAG 2.2 AA guidelines.        | `.opencode/agents/accessibility-check.md`  |
 
 ---
 
@@ -222,7 +230,6 @@ To uninstall:
 pnpx skills@latest remove Sirio2022/dev-toolkit
 ```
 
-
 ### Option 2 — Other agents (Cursor, Codex, Antigravity)
 
 ```bash
@@ -362,12 +369,12 @@ The gap between the two skills — re-reading and changing the status by hand �
 
 This project uses [release-please](https://github.com/googleapis/release-please) for automated releases. Commit messages must follow [Conventional Commits](https://www.conventionalcommits.org/):
 
-| Prefix | Effect |
-| --- | --- |
-| `feat:` | Bumps minor version |
-| `fix:` | Bumps patch version |
-| `feat!:` / `fix!:` | Bumps major version |
-| `docs:`, `chore:`, `refactor:` | No version bump |
+| Prefix                         | Effect              |
+| ------------------------------ | ------------------- |
+| `feat:`                        | Bumps minor version |
+| `fix:`                         | Bumps patch version |
+| `feat!:` / `fix!:`             | Bumps major version |
+| `docs:`, `chore:`, `refactor:` | No version bump     |
 
 ---
 

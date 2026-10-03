@@ -20,10 +20,18 @@ pnpx skills@latest add Sirio2022/dev-toolkit
 
 ## Skills
 
-| Skill | Descripción | Argumento |
-| --- | --- | --- |
-| `/spec` | Diseña el documento de la feature haciendo preguntas de clarificación | — |
-| `/spec-impl` | Valida que el spec esté aprobado e implementa paso a paso | `<NN-slug>` |
+| Skill        | Descripción                                                           | Argumento   |
+| ------------ | --------------------------------------------------------------------- | ----------- |
+| `/spec`      | Diseña el documento de la feature haciendo preguntas de clarificación | —           |
+| `/spec-impl` | Valida que el spec esté aprobado e implementa paso a paso             | `<NN-slug>` |
+
+# Agents
+
+| Agente                    | Descripción                                                                               | Ubicación                                  |
+| ------------------------- | ----------------------------------------------------------------------------------------- | ------------------------------------------ |
+| `react-best-practices.md` | Aplica las mejores prácticas de React 19 y Next.js 16 al código.                          | `.opencode/agents/react-best-practices.md` |
+| `spec-verifier.md`        | Verifica y corrige los criterios de aceptación en los specs usando Context7 y Playwright. | `.opencode/agents/spec-verifier.md`        |
+| `accessibility-check.md`  | Audita y corrige problemas de accesibilidad siguiendo las pautas WCAG 2.2 AA.             | `.opencode/agents/accessibility-check.md`  |
 
 ---
 
@@ -222,7 +230,6 @@ Para desinstalar:
 npx skills@latest remove Klerith/fernando-skills
 ```
 
-
 ### Opción 2 — Otros agentes (Cursor, Codex, Antigravity)
 
 ```bash
@@ -351,11 +358,11 @@ El gap entre los dos skills — releer y cambiar el estado a mano — es deliber
 
 Este proyecto usa [release-please](https://github.com/googleapis/release-please) para releases automáticos. Los mensajes de commit deben seguir [Conventional Commits](https://www.conventionalcommits.org/):
 
-| Prefijo | Efecto |
-| --- | --- |
-| `feat:` | Sube versión minor |
-| `fix:` | Sube versión patch |
-| `feat!:` / `fix!:` | Sube versión major |
+| Prefijo                        | Efecto                |
+| ------------------------------ | --------------------- |
+| `feat:`                        | Sube versión minor    |
+| `fix:`                         | Sube versión patch    |
+| `feat!:` / `fix!:`             | Sube versión major    |
 | `docs:`, `chore:`, `refactor:` | Sin cambio de versión |
 
 ---

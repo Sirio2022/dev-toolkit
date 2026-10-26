@@ -25,14 +25,6 @@ pnpx skills@latest add Sirio2022/dev-toolkit
 | `/spec`      | Designs the feature document by asking clarifying questions | —           |
 | `/spec-impl` | Validates the spec is approved and implements step by step  | `<NN-slug>` |
 
-## Agents
-
-| Agent                     | Description                                                                       | Location                                   |
-| ------------------------- | --------------------------------------------------------------------------------- | ------------------------------------------ |
-| `react-best-practices.md` | Applies React 19 and Next.js 16 best practices to the codebase.                   | `.opencode/agents/react-best-practices.md` |
-| `spec-verifier.md`        | Verifies and corrects acceptance criteria in specs using Context7 and Playwright. | `.opencode/agents/spec-verifier.md`        |
-| `accessibility-check.md`  | Audits and corrects accessibility issues following WCAG 2.2 AA guidelines.        | `.opencode/agents/accessibility-check.md`  |
-
 ---
 
 ## Table of contents
